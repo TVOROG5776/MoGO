@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --description--color: #B6B6B6;
+    --header--color--text: #95E1D3;
+    --underline--color: #F38181;
+    --title--color: #333333;
+}
+
+.logo {
+    color: var(--header--color--text);
+    font-size: 30px;
+    font-family: 'Montserrat';
+}
+
+.container {
+    width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: right;
+}
+
+nav > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--header--color--text);
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    margin: 15px;
+}
+
+nav > a:hover {
+    color: var(--underline--color);
+    text-decoration: var(--underline--color) underline 3px;
+}
+
+.main {
+    margin-top: 65px;
+}
+
+h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: var(--title--color);
+    font-size: 24px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--title--color);
+    text-transform: uppercase;
+    text-decoration: #F38181 underline;
+}
+
+.services {
+    margin-top: 100px;
+}
+
+.service > h4 {
+    display: inline;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.service {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.service > p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: var(--description--color);
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+.who-we {
+    margin-top: 100px;
+}
+
+.who-we  > .container > p {
+    text-align: center;
+    color: var(--description--color);
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.card > h4 {
+    text-transform: uppercase;
+    color: var(--title--color);
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.card > p {
+    font-family: 'Montserrat';
+    color: var(--description--color);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 15px;
+}
+
+hr {
+    margin-top: 60px;
+}
+
+footer > p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-align: center;
+    display: inline;
+}
+
+.made {
+    color: #F38181;
+}
+
+form {
+    text-align: right;
+}
+
+#contact {
+    width: 230px;
+    padding-bottom: 9.5px;
+    padding-left: 10px;
+    padding-top: 9.5px;
+    border: 2px #B6B6B6 solid;
+}
+
+input[placeholder*="Your Email..."] {
+    font-style: italic;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+button {
+    background-color: #95E1D3;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 65px;
+    padding-right: 65px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #44bbbb;
+}
+
+button:active {
+    cursor: default;
+}
